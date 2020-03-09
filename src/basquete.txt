@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+     int D;
+     int pontuação;
+
+printf("Digite a distância: ");
+	scanf("%i", &D);
+
+    if(D <= 800){
+      pontuação = 1;
+    } if (800 < D && D <= 1400){
+      pontuação = 2;
+    } if(1400 < D && D <= 2000){
+      pontuação = 3;
+    }
+
+    printf("Saída: %d", pontuação);
+  }
